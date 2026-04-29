@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Form & Media Demo</title>
+</head>
+<body>
+
+<h1>HTML Tags Demonstration</h1>
+
+<!-- 1. BUTTON, DATALIST, OPTION -->
+<h2>1. Button, Datalist, Option</h2>
+
+<form>
+
+    <!-- Button -->
+    <button type="button" onclick="alert('Button Clicked!')">
+        Click Me
+    </button>
+
+    <br><br>
+
+    <!-- Datalist -->
+    <label>Choose a Browser:</label>
+    <input list="test" name="browser">
+
+    <datalist id="test">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Edge">
+        <option value="Safari">
+    </datalist>
+
+</form>
+
+
+<!-- 2. SELECT AND OPTGROUP -->
+<h2>2. Select and Optgroup</h2>
+
+<label>Select Your Course:</label>
+<select name="course">
+
+    <optgroup label="Programming">
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+    </optgroup>
+
+    <optgroup label="Web Development">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+    </optgroup>
+
+</select>
+
+
+<!-- 3. INPUT AND TEXTAREA -->
+<h2>3. Input and Textarea</h2>
+
+<form>
+
+    Name: <input type="text" placeholder="Enter name"><br><br>
+
+    Email: <input type="email"><br><br>
+
+    Password: <input type="password"><br><br>
+
+    Message:<br>
+    <textarea rows="4" cols="30" placeholder="Enter message"></textarea>
+
+</form>
+
+
+<!-- 4. FIELDSET AND LEGEND -->
+<h2>4. Fieldset and Legend</h2>
+
+<form>
+
+<fieldset>
+    <legend>Personal Information</legend>
+
+    Name: <input type="text"><br><br>
+    Age: <input type="number"><br><br>
+
+</fieldset>
+
+</form>
+
+
+<!-- 5. OUTPUT TAG -->
+<h2>5. Output Tag</h2>
+
+<form oninput="result.value = parseInt(a.value) + parseInt(b.value)">
+
+    Number 1: <input type="number" id="a" value="0">
+    +
+    Number 2: <input type="number" id="b" value="0">
+
+    = 
+    <output name="result">0</output>
+
+</form>
+
+
+<!-- 6. AUDIO, VIDEO, ARTICLE -->
+<h2>6. Audio Tag</h2>
+
+<audio controls>
+    <source src="sample.mp3" type="audio/mpeg">
+    Your browser does not support audio
+</audio>
+
+
+<h2>Video Tag</h2>
+
+<video width="300" controls>
+    <source src="sample.mp4" type="video/mp4">
+    Your browser does not support video
+</video>
+
+
+<h2>Article Tag</h2>
+
+<article>
+    <h3>About HTML</h3>
+    <p>
+        HTML is used to create web pages. It structures content like text, images, and media.
+    </p>
+</article>
+
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+1. Writing HTML Code (Basic Structure)
+
+Every HTML page follows a standard structure:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Page</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+</body>
+</html>
+Explanation:
+<!DOCTYPE html> → tells browser this is HTML5
+<html> → root of the page
+<head> → contains title, meta info
+<title> → shown in browser tab
+<body> → visible content
+
+-------------------------------------------
+2. HTML Basic Tags
+
+These are the most commonly used tags:
+
+Example:
+<h1>Main Heading</h1>
+<p>This is a paragraph</p>
+<br>
+<hr>
+Tags:
+<h1> to <h6> → headings
+<p> → paragraph
+<br> → line break
+<hr> → horizontal line
+3. HTML Text Tags
+
+Used to format text.
+
+Example:
+<p>This is <b>bold</b> text</p>
+<p>This is <i>italic</i> text</p>
+<p>This is <u>underlined</u> text</p>
+<p>This is <strong>important</strong></p>
+<p>This is <em>emphasized</em></p>
+Tags:
+<b> → bold
+<i> → italic
+<u> → underline
+<strong> → important text
+<em> → emphasized
+4. Semantic Elements in HTML5
+
+Semantic = gives meaning to content.
+
+Example:
+<header>This is header</header>
+
+<nav>
+    <a href="#">Home</a>
+</nav>
+
+<main>
+    <section>
+        <h2>Section Title</h2>
+        <p>Content here</p>
+    </section>
+</main>
+
+<footer>Footer content</footer>
+Important Tags:
+<header> → top section
+<nav> → navigation menu
+<main> → main content
+<section> → grouped content
+<article> → independent content
+<footer> → bottom section
+
+👉 Helps search engines and developers understand structure.
+
+5. Effects of Physical Character Tags
+
+These tags change appearance only (visual).
+
+Example:
+<p><b>Bold text</b></p>
+<p><i>Italic text</i></p>
+<p><u>Underlined text</u></p>
+Tags:
+<b> → bold
+<i> → italic
+<u> → underline
+
+👉 No meaning, just style.
+
+6. Effects of Logical Character Tags
+
+These tags add meaning, not just style.
+
+Example:
+<p><strong>Important text</strong></p>
+<p><em>Emphasized text</em></p>
+<p><mark>Highlighted text</mark></p>
+<p><code>System.out.println()</code></p>
+Tags:
+<strong> → important
+<em> → emphasis
+<mark> → highlight
+<code> → code text
+
+👉 Better for SEO and accessibility.
+
+7. Manage Document Spacing in HTML
+
+Spacing is controlled using tags.
+
+Example:
+<p>Line 1</p>
+<p>Line 2</p>
+
+Line 3 <br> Line 4
+
+<hr>
+
+<pre>
+This    keeps
+spaces    exactly
+same
+</pre>
+Tags:
+<p> → creates space between paragraphs
+<br> → line break
+<hr> → horizontal separator
+<pre> → preserves spaces
+Bonus: Attributes (Very Important)
+
+Attributes give extra info to tags.
+
+Example:
+<a href="https://google.com" target="_blank">Visit Google</a>
+
+<img src="image.jpg" alt="Sample Image" width="200">
+Common Attributes:
+href → link URL
+src → image source
+alt → image description
+width, height → size
+target="_blank" → open in new tab
+Final Simple Real-Time Example
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+</head>
+<body>
+
+<header>
+    <h1>Welcome</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+</nav>
+
+<main>
+    <p>This is <strong>important</strong> text.</p>
+    <p>This is <b>bold</b> text.</p>
+    <hr>
+    Line break example <br> Next line
+</main>
+
+<footer>
+    <p>Copyright 2026</p>
+</footer>
+
+</body>
+</html>
